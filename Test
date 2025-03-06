@@ -1,1 +1,5 @@
 Test
+Запуск тестов на firefox:
+pytest -v --tb=line --user_language=en --browser_name=firefox test_main_page.py
+Запуск тестов на chrome:
+pytest -v --tb=line --user_language=en --browser_name=chrome test_main_page.py
